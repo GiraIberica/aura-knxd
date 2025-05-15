@@ -49,7 +49,7 @@ public:
 protected:
   unsigned int default_baudrate()
   {
-    return 38400;
+    return 19200;
   }
   void termios_settings(struct termios &t1)
   {
